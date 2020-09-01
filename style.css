@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Fantasque Sans Mono";
+    src: url('FantasqueSansMonoRegular.woff')
+}
+
+* {
+    font-family: "Fantasque Sans Mono" !important;
+    margin: 0;
+}
+
+nav div div {
+    margin: auto !important
+}
+
+.socialLinksIconSet a{
+    text-decoration: none
+}
+
+@media screen and (max-width: 768px) {
+    .socialLinksIconSet a{
+        display: block;
+        padding: 8px 0 ;
+    }   
+
+    .socialLinksIconSet span {
+        display: none
+    }
+}
