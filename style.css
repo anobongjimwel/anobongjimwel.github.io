@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden
+}
+
 nav div div {
     margin: auto !important
 }
@@ -24,5 +28,39 @@ nav div div {
 
     .socialLinksIconSet span {
         display: none
+    }
+
+    .project_1 {
+        background:
+            linear-gradient(to top, rgba(0, 0, 0, 0.2), rgb(25,25,26) 80%),
+            url("img/project_1/bg.jpg");
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .project_2 {
+        background:
+        linear-gradient(to top, rgba(0, 0, 0, 0.2), rgb(151, 84, 84) 55%),
+            url("img/project_2/bg.jpg");
+        background-size: cover;
+        background-position: center right;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .project_1 {
+        background:
+            linear-gradient(to right, rgba(0, 0, 0, 0.2), rgb(25,25,26) 45%),
+            url("img/project_1/bg.jpg");
+        background-size: cover;
+        background-position: center bottom;
+    }
+
+    .project_2 {
+        background:
+        linear-gradient(to left, rgba(0, 0, 0, 0.2), rgb(151, 84, 84) 55%),
+            url("img/project_2/bg.jpg");
+        background-size: cover;
+        background-position: center right;
     }
 }
