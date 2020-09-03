@@ -60,6 +60,14 @@ nav div div {
         background-size: cover;
         background-position: center bottom;
     }
+
+    .project_4 {
+        background:
+        linear-gradient(to top, rgba(0, 0, 0, 0.2), rgb(138, 139, 33) 80%),
+            url("/img/project_4/bg.jpg");
+        background-size: cover;
+        background-position: top right;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -83,6 +91,14 @@ nav div div {
         background:
         linear-gradient(to right, rgba(0, 0, 0, 0.2), rgb(47, 77, 41) 65%),
             url("/img/project_3/bg.jpg");
+        background-size: cover;
+        background-position: center right;
+    }
+
+    .project_4 {
+        background:
+        linear-gradient(to left, rgba(0, 0, 0, 0.2), rgb(138, 139, 33) 65%),
+            url("/img/project_4/bg.jpg");
         background-size: cover;
         background-position: center right;
     }
