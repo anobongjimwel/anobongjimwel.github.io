@@ -13,6 +13,11 @@
             });
             AOS.refresh()
             
+            // Stopping animation fix
+            $(window).scroll(function() {
+                AOS.refresh()
+            })
+
             // MainTicker Manipulation
             var mainTicker_options = {
                 strings: ['I make websites.','I make personal blogs.','I am a full-stack programmer.','I program apps.','I do vector editing.','I do video/graphics editing.','I also repair computers.','I also reformat computers.','I eat codes for breakfast.','I eat logic for lunch.','I eat bugs for dinner.'],
