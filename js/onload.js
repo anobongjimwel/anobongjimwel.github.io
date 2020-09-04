@@ -8,7 +8,10 @@
             })
 
             // Initialize AOS.js
-            AOS.init();
+            AOS.init({
+                once: false
+            });
+            AOS.refresh()
             
             // MainTicker Manipulation
             var mainTicker_options = {
