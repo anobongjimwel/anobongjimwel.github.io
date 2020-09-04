@@ -1,0 +1,19 @@
+{
+  "name": "jimwel-portfolio",
+  "version": "1.0.0",
+  "description": "Jimwel's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anobongjimwel/anobongjimwel.github.io.git"
+  },
+  "author": "Jimwel Anobong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anobongjimwel/anobongjimwel.github.io/issues"
+  },
+  "homepage": "https://github.com/anobongjimwel/anobongjimwel.github.io#readme"
+}
