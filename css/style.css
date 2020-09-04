@@ -3,19 +3,23 @@
     src: url('/FantasqueSansMonoRegular.woff')
 }
 
+@font-face {
+    font-family: "Baybayin Kana Regular";
+    src: url('/BAYBAYIN_KAN.TTF')
+}
+
+
 * {
     font-family: "Fantasque Sans Mono" !important;
     margin: 0;
 }
 
-.project_2 {
-    max-width: 100vw;
-    overflow-x: hidden
+.container-fluid {
+    max-width: 100vw !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-body {
-    overflow-x: hidden
-}
 
 nav div div {
     margin: auto !important
@@ -25,12 +29,10 @@ nav div div {
     text-decoration: none
 }
 
-
-
 @media screen and (max-width: 768px) {
     .socialLinksIconSet a{
         display: block;
-        padding: 8px 0 ;
+        padding: 8px 0;
     }   
 
     .socialLinksIconSet span {
@@ -68,6 +70,10 @@ nav div div {
         background-size: cover;
         background-position: top right;
     }
+
+    .image-popup > img {
+        width: 60vw;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -101,5 +107,9 @@ nav div div {
             url("/img/project_4/bg.jpg");
         background-size: cover;
         background-position: center right;
+    }
+
+    .image-popup img {
+        width: 40vw;
     }
 }
