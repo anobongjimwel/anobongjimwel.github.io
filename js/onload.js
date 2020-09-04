@@ -1,8 +1,15 @@
-        // Initialize AOS.js
-        AOS.init();
+
 
         // Loads document completely enclosed script
         $(document).ready(function() {
+            // Initialize Pop-ups
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+
+            // Initialize AOS.js
+            AOS.init();
+            
             // MainTicker Manipulation
             var mainTicker_options = {
                 strings: ['I make websites.','I make personal blogs.','I am a full-stack programmer.','I program apps.','I do vector editing.','I do video/graphics editing.','I also repair computers.','I also reformat computers.','I eat codes for breakfast.','I eat logic for lunch.','I eat bugs for dinner.'],
@@ -25,13 +32,90 @@
                         type: 'iframe'
                     },
                     {
-                        src: '/img/project_2/1.jpg',
+                        src: '/img/project_1/fn (1).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (2).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (3).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (4).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (5).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (6).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (7).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (8).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (9).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (10).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (11).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (12).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (13).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (14).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (15).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (16).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (17).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (18).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (19).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (20).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_1/fn (21).png',
                         type: 'image'
                     }
                 ],
-                image: {
-                    titleSrc: "gggg"
-                },
                 gallery: {
                     enabled: true
                 },
@@ -304,4 +388,35 @@
                 type: 'image'
             })
             // End Image Enlargement
+
+            // Project 3.2 Gallery 
+            $('#project_4_gallery').magnificPopup({
+                items: [
+                    {
+                        src: '/img/project_4/pp (1).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_4/pp (2).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_4/pp (3).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_4/pp (4).png',
+                        type: 'image'
+                    },
+                    {
+                        src: '/img/project_4/pp (1).jpg',
+                        type: 'image'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image'
+            })
+            // End Project 4 Gallery
         });
