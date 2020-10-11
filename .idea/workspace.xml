@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45f82b90-fa12-4b70-85ab-8e7bde999d67" name="Default Changelist" comment="" />
+    <list default="true" id="45f82b90-fa12-4b70-85ab-8e7bde999d67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Jim Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Jim Portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -35,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1gqr6nRx9PTqUzxtl8h86f3d9g0" />
   <component name="ProjectViewState">
@@ -73,6 +81,8 @@
       <workItem from="1598852793629" duration="328000" />
       <workItem from="1598960419848" duration="195000" />
       <workItem from="1598963440484" duration="3000" />
+      <workItem from="1600084985478" duration="949000" />
+      <workItem from="1600086385872" duration="724000" />
     </task>
     <servers />
   </component>
@@ -100,5 +110,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="658" y="385" width="657" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1050/1920.-43.1920.1050@0.0.1920.1050" timestamp="1598852943980" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1600085334237">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.-43.1920.1050@0.0.1920.1050" timestamp="1600085334237" />
   </component>
 </project>
